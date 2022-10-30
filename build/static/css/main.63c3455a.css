@@ -1,0 +1,2 @@
+main{align-items:center;display:flex;flex-direction:column;gap:30px;justify-content:center;padding:40px 0}main #editor{background-color:#2a2a2a;border:none;border-radius:10px;color:#fff;padding:10px;resize:none}main #editor:focus{box-shadow:0 0 5px red;outline:none}main #preview img{max-width:30%}body{background-color:#000;color:#fff;font-family:Helvetica}
+/*# sourceMappingURL=main.63c3455a.css.map*/

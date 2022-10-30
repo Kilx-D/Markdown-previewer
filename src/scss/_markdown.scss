@@ -1,0 +1,43 @@
+main {
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    justify-content: center;
+    
+    gap: 30px;
+
+   
+
+
+    #editor {
+        resize: none;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(42, 42, 42);
+        color: white;
+        padding: 10px;
+       
+        
+
+        &:focus {
+            //border: 2px solid red;
+            box-shadow: 0 0 5px red;
+            outline: none;
+
+
+        }
+    }
+
+    #preview {
+
+        img {
+            max-width: 30%;
+            // display: block;
+            // margin: auto 0;
+
+        }
+
+        
+    }
+}
